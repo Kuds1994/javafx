@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="236.0" prefWidth="431.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLDocumentController1">
+   <children>
+      <TextField fx:id="texto" layoutX="104.0" layoutY="80.0" prefHeight="31.0" prefWidth="222.0" />
+      <Button fx:id="retornar" layoutX="177.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Retornar" />
+   </children>
+</AnchorPane>
